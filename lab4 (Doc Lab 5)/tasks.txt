@@ -1,0 +1,25 @@
+Problem 1. Write a Python program to combine two dictionaries by adding values for commonkeys. d1 = {'a': 100, 'b': 200, 'c': 300}
+d2 = {'a': 300, 'b': 200, 'd':400}
+Sample output: Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})
+
+Problem 2. Write a Python program to count the frequency of values in a dictionary. Original Dictionary: {'V': 10, 'VI': 10, 'VII': 40, 'VIII': 20, 'IX': 70, 'X': 80, 'XI': 40, 'XII': 20}Count the frequency of the said dictionary: Counter({10: 2, 40: 2, 20: 2, 70: 1, 80: 1})
+
+Problem 3. Write a Python function that checks whether a passed string is a palindrome. 
+
+Problem 4. Write a Python function that takes a list and returns a new list with distinct elementsfrom the list. Sample List : [1,2,3,3,3,3,4,5]
+Sample output : [1, 2, 3, 4, 5]
+
+Problem 5. Write a Python function that will take a list and print the counts of all distinct
+elements. Sample List : [10,20,30,30,30,30,20,40]
+Sample output : 10 => 1, 20 => 2, 30 => 4, 40 => 1
+x = lambda a, b : a * b
+print(x(5, 6))
+def myfunc(n):
+return lambda a : a * n
+mydoubler = myfunc(2)
+mytripler = myfunc(3)
+print(mydoubler(11))
+print(mytripler(11))
+Page 22of 36
+
+Problem 6. Write a Python lambda function to find if a given string starts with a given sub-stringusing Lambda
